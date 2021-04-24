@@ -31,7 +31,7 @@ nav a:hover{
   opacity: .85;
 }
 nav img{
-  width: 34px;
+  width: 30px;
   margin: auto 7px;
   padding: 5px;
   cursor: pointer;
@@ -55,15 +55,15 @@ nav button{
 .section-1 .logo{
   display: block;
   margin: 0px auto;
-  margin-top: 300px;
+  margin-top: 100px;
   width: 350px;
 }
 .s-box{
-  width: 700px;
+  width: 600px;
   margin: 0px auto;
   position: relative;
   text-align: center;
-  margin-top: -8px;
+  margin-top: -6px;
 }
 .s-box .s-input{
   display: block;
@@ -95,10 +95,11 @@ nav button{
   left: 15px;
 }
 .s-box .mic-icon{
-  width: 35px;
+  width: 30px;
   position: absolute;
-  top: 8px;
+  top: 10px;
   right: 15px;
+  
 }
 .s-btn{
   border: 1px solid transparent;
@@ -117,7 +118,7 @@ nav button{
   border: 1px solid #aaa;
 }
 .lang {
-  margin-top: 30px;
+  margin-top: 35px;
   text-align: center;
   font-size: 13px;
   color: #111;
@@ -150,24 +151,26 @@ footer a{
 footer a:hover{
   text-decoration: underline;
 }
-footer p {
+footer .carbon {
+  display: flex;
   padding-top: 15px;
   text-align: center;
-  padding-right: 100px;
+  justify-content: center;
   color: #5f6368;
+  border-top: 1px solid #ddd;
 }
 .links{
-  border-top: 1px solid #ddd;
 display: flex;
+justify-content: space-around;
 }
 .link-1{
-  padding-right: 20px;
-  padding-top: 40px;
+  padding-left: 50px;
+ /* padding-top: 40px;
   
-  flex: 2;
+  flex: 2;*/
 }
 .link-2{
-  padding-left: px;
-  padding-top: 40px;
-  flex: 1;
+  padding-right: 50px;
+/*  padding-top: 40px;
+  flex: 1;*/
 }
